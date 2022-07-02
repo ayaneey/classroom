@@ -1,6 +1,7 @@
 header {
   width: 100%;
   background-color: lightblue;
+  font-size: small;
 }
 
 h2 {
@@ -20,25 +21,35 @@ li {
 }
 
 /* Boxes */
-img {
-  /* TODO: Add your code here */
-  margin: 0 auto;
-}
 
 #item-1 {
   background-color: #e0115f;
+  color: white;
+  display: inline;
+  font-size: 18px;
+  margin-left: 800px;
 }
 
 #item-2 {
   background-color: #0000ff;
+  color: white;
+  display: inline;
+  font-size: 18px;
+  margin-right: 0px;
 }
 
 #item-3 {
   background-color: #999900;
+  color: white;
+  font-size: 18px;
+  display: inline;
+  margin-left: 0px;
 }
 
-/* Box 3 */
-#image-3 {
-  /* TODO: Add your code here */
-  display: none;
+img {
+  margin-left: 500px;
+  margin-bottom: 0px;
+  height: 100px;
+  weight: 100px;
+  display: block;
 }
